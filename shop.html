@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fav icon -->
+    <link
+      rel="shortcut icon"
+      href="images/Meraki logo.jpg"
+      type="image/x-icon"
+    />
+    <!-- CSS style link -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .carousel-caption {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column; 
+          font-family: "Playfair", serif;
+          background: rgba(0, 0, 0, 0.5); 
+        }
+        .carousel-caption h5{
+            font-weight: 900;
+            font-size: xx-large;
+        }
+        .carousel-caption p{
+            font-weight: 400;
+            font-size: large;
+        }
+    </style>
+    <title>Meraki Handmade</title>
+    <!-- bootstrap cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animated.css  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-navbar position-sticky top-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/Meraki logo.jpg" alt="logo" class="logo"></a>
+  
+          <!-- toggler icon -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- nav item -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="patterns.html">Patterns</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page"  href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link active" href="contact-us.html">Contact</a>
+              </li>
+            </ul>
+            <!-- form -->
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-danger" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- carousel section -->
+    <div id="slider" class="carousel slide custom-carousel-height" data-bs-ride="carousel">
+        <!-- carousel indicator -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <!-- carousel inner -->
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="images/carousel/carousel 5.jpg" class="d-block w-100" alt="banner-img">
+              <div class="carousel-caption">
+                  <h5 class="text-white">65% off Christmas Sale</h5>
+                  <p class="text-white">Enjoy deep discount and get into the holiday spirit. The creation of beautiful, unique for Christmas gifts.</p>
+              </div>
+            </div>        
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/carousel/carousel6.jpg" class="d-block w-100" alt="banner-img">
+                <div class="carousel-caption">
+                    <h5 class="text-white">New Classes and Patterns are coming!</h5>
+                    <p class="text-white">Join our new classes and discover exciting skills that inspire creativity and growth.</p>
+                </div>
+            </div>
+        </div>
+        <!-- carousel prev icon -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <!-- carousel next icon -->
+        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Shop section  -->
+    <!-- New Products -->
+    <div class="container my-3">
+      <h2 class="border-bottom">New Products</h2>
+      <div class="row">
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/NP1.jpg" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="tag text-white px-3 py-2 d-inline">NEW</div>
+                  <div class="card-body">
+                      <p class="text-danger"><i class="fa-solid fa-photo-film"></i> Class</p>
+                      <h5 class="card-title text-bolder">Next Steps in Tunisian Crochet</h5>
+                      <h5 class="text-lighter fs-6">by Mary Beth Temple</h5>
+                      <p class="price text-bolder fs-5">$39.99</p>
+                      <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/NP2.png" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="tag text-white px-3 py-2 d-inline">NEW</div>
+                  <div class="card-body">
+                    <p class="text-danger"><i class="fa-solid fa-compact-disc"></i> DVD Class</p>
+                    <h5 class="card-title text-bolder">My First Toe-Up Socks</h5>
+                    <h5 class="text-lighter fs-6">DVD + Streaming</h5>
+                    <p class="price text-bolder fs-5">$49.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/NP3.jpg" class="card-img-top w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="tag text-white px-3 py-2 d-inline">NEW</div>
+                  <div class="card-body">    
+                    <p class="text-danger"><i class="fa-regular fa-file-pdf"></i> Pattern</p>
+                    <h5 class="card-title text-bolder">Zigzag Shawl</h5>
+                    <h5 class="text-lighter fs-6">by Iris Schreier</h5>
+                    <p class="price text-bolder fs-5">$32.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+      </div>
+    </div>
+    <!-- Featured Class -->
+    <div class="container my-3">
+      <h2 class="border-bottom">Featured Class</h2>
+      <div class="row">
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FC1.jpg" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">
+                      <p class="text-danger"><i class="fa-solid fa-photo-film"></i> Class</p>
+                      <h5 class="card-title text-bolder">Stacked Stitches: Knitting in Wild Color</h5>
+                      <h5 class="text-lighter fs-6">by Xandy Peters</h5>
+                      <p class="price text-bolder fs-5">$35.99</p>
+                      <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FC2.jpg" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">
+                    <p class="text-danger"><i class="fa-solid fa-compact-disc"></i> DVD Class</p>
+                    <h5 class="card-title text-bolder">Crochet Mittens & Fingerless Gloves</h5>
+                    <h5 class="text-lighter fs-6">DVD + Streaming</h5>
+                    <p class="price text-bolder fs-5">$45.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FC3.jpg" class="card-img-top w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">    
+                    <p class="text-danger"><i class="fa-solid fa-photo-film"></i> Class</p>
+                    <h5 class="card-title text-bolder">Crocheting Sunflowers and Lavender Flowers</h5>
+                    <h5 class="text-lighter fs-6">by Valeria Torres</h5>
+                    <p class="price text-bolder fs-5">$28.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+      </div>
+    </div>
+    <!-- Featured Pattern -->
+    <div class="container my-3">
+      <h2 class="border-bottom">Featured Pattern</h2>
+      <div class="row">
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FP1.jpg" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">
+                      <p class="text-danger"><i class="fa-regular fa-file-pdf"></i> Pattern</p>
+                      <h5 class="card-title text-bolder">Repose Cowl Pattern</h5>
+                      <h5 class="text-lighter fs-6">by Norah Gaughan</h5>
+                      <p class="price text-bolder fs-5">$42.99</p>
+                      <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FP2.jpg" class="image-fluid w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">
+                    <p class="text-danger"><i class="fa-regular fa-file-pdf"></i> Pattern</p>
+                    <h5 class="card-title text-bolder">Fair Isle Hat</h5>
+                    <h5 class="text-lighter fs-6">by Karen Whooley</h5>
+                    <p class="price text-bolder fs-5">$39.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+          <div class="col-md-4 text-md-start text-center px-3 mb-5">
+              <div class="card">
+                  <img src="images/Shop/FP3.jpg" class="card-img-top w-100" style="height: 200px; object-fit: cover;" alt="brand-img" />
+                  <div class="card-body">    
+                    <p class="text-danger"><i class="fa-regular fa-file-pdf"></i> Pattern</p>
+                    <h5 class="card-title text-bolder">Crochet Catus Garden</h5>
+                    <h5 class="text-lighter fs-6">by Amy Gaines</h5>
+                    <p class="price text-bolder fs-5">$25.99</p>
+                    <a href="#" class="btn btn-danger"><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a>
+                  </div>
+              </div>
+          </div>    
+      </div>
+    </div>
+    <!-- footer  -->
+    <footer class="p-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-2 text-center text-md-start">
+                    <h2 class="h5 text-danger fw-bolder">MERAKI</h2>
+                    <p class=" text-white mb-4">Sign up for our newsletter. Stay connected to Handmade experts.</p>
+                    <input type="email" class="form-control rounded-0 py-2 w-75 d-inline" placeholder="Enter your email here">
+                    <button class="btn btn-danger me-2 mt-2" href="#">Sign Up</button>
+                </div>
+                <div class="col-md-4 mt-2 text-center text-md-start">
+                    <h3 class="h5 text-white">Popular Categories</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="footer-link" href="crocheting.html" >Crocheting</a></li>
+                        <li><a class="footer-link" href="knitting.html">Knitting</a></li>
+                        <li><a class="footer-link" href="amigurumi.html">Amigurumi</a></li>
+                        <li><a class="footer-link" href="macrame.html">Macrame</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-2 text-center text-md-start">
+                    <h3 class="h5 text-white">Customer Service</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="footer-link" href="about-us.html">About Us</a></li>
+                        <li><a class="footer-link" href="contact-us.html">Contact Us</a></li>
+                        <li><a class="footer-link" href="member.html">Membership Info</a></li>
+                        <li><a class="footer-link" href="contact-us.html">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-icons text-md-end text-center text-white">
+            <i class="bi bi-facebook ms-3"></i>
+            <i class="bi bi-youtube ms-3"></i>
+            <i class="bi bi-pinterest ms-3"></i>
+            <i class="bi bi-twitter-x ms-3"></i>
+          </div>
+        <div class="row text-md-end text-center text-white">
+            <p>copyright © MERAKI 2024. All Rights Reserved!</p>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

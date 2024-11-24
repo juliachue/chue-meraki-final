@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d2dda3;
+  color: #2e765e;
+  font-family: "Playfair", serif;
+}
+/* navigation bar */
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+  opacity: 0.8;
+}
+.bg-navbar {
+  background-color: #2e765e;
+}
+.navbar a,
+.footer a {
+  color: #fff !important;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.nav-link {
+  font-family: "Pacifico", cursive;
+}
+.nav-link:hover {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.d-flex,
+.alert,
+.row p {
+  font-family: "Playfair", serif;
+}
+/* carousel section */
+.custom-carousel-height {
+  height: 500px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+/* Category */
+.card {
+  padding: 10px;
+}
+.card-body h3 {
+  font-family: "Pacifico", cursive;
+  color: #2e765e;
+}
+.card-title a {
+  font-family: "Pacifico", cursive;
+  color: #2e765e;
+}
+.card-title:hover {
+  scale: 0.9;
+  transition: 0.5s;
+}
+/* About Us */
+.head {
+  text-align: center;
+  padding: 10px;
+  transition-duration: 500ms;
+}
+.head h2 {
+  font-style: italic;
+  font-family: "Playfair", serif;
+}
+.container {
+  font-family: "Playfair", serif;
+  text-align: justify;
+  line-height: 1.5;
+}
+.container h2 {
+  letter-spacing: 2px;
+}
+.home-img img {
+  max-width: 100%;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px #e6706f;
+}
+.home-img img:hover {
+  scale: 0.9;
+  transition: 0.5s;
+}
+/* footer */
+footer {
+  background-color: #2e765e;
+  position: relative;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.row h3 {
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px #e6706f;
+}
+.row {
+  display: flex;
+}
+.footer-link {
+  font-family: "Playfair", serif;
+}
+.footer-link:hover {
+  border-bottom: 2px solid #dc3545;
+}
+/* classes */
+/* head section */
+.class-head {
+  text-align: center;
+  padding: 10px;
+  color: #dc3545;
+  transition-duration: 500ms;
+  font-family: "Playfair", serif;
+}
+.class-head h3 {
+  font-weight: 900;
+  font-size: xx-large;
+  text-shadow: 3px 3px 3px #d2dda3;
+}
+.class-head a {
+  text-decoration: none;
+  color: #2e765e;
+}
+/* patterns section */
+.tag {
+  background-color: #dc3545;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
